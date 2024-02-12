@@ -63,8 +63,12 @@ meter {
   padding: 5px;
   height: 30px;
 }
+
+span {
+    width: 0;
+}
 /* End of Meyer reset + form reset */
 
-h1 {
-    color: red;
+body {
+    width: 100%;
 }
