@@ -67,8 +67,81 @@ meter {
 span {
     width: 0;
 }
+
+* {
+    box-sizing: border-box;
+}
 /* End of Meyer reset + form reset */
+@font-face {
+    font-family: "norse bold";
+    src: url("./Norse-Bold.otf");
+}
+
+:root {
+    --button-color: #596D48;
+    --input-border: #E5E7EB;
+}
 
 body {
     width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.container .side {
+    width: 37.3%;
+    background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    background-color: var(--button-color, olive);
+
+    position: relative;
+}
+
+.side .logo {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    width: 100%;
+
+    position: absolute;
+    top: 15rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 6rem;
+    height: auto;
+}
+
+.logo .logo-text {
+    font-family: "norse bold", sans-serif;
+    color: white;
+    font-size: 6rem;
+}
+
+.side .referral {
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.referral a:link,
+.referral a:visited,
+.referral a:hover,
+.referral a:visited {
+    color: white;
+}
+
+.container .main {
+    width: 62.7%;
 }
