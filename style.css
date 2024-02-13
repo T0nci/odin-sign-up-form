@@ -142,7 +142,7 @@ body {
 .referral a:link,
 .referral a:visited,
 .referral a:hover,
-.referral a:visited {
+.referral a:active {
     color: white;
 }
 
