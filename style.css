@@ -206,7 +206,7 @@ form .form-controls {
     max-width: 16rem;
     max-height: 2rem;
     padding: 0.5rem;
-    border: 2px solid var(--input-border, gray);
+    border: 1px solid var(--input-border, gray);
     border-radius: 4px;
 }
 
@@ -220,7 +220,8 @@ form .form-controls {
 }
 
 form .button {
-    padding: 0 0 1.5rem 3rem;
+    padding-left: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .button button {
@@ -233,6 +234,7 @@ form .button {
     font-size: 1.25rem;
     font-weight: 600;
     cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 form .log-in {
